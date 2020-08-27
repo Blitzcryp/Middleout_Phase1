@@ -1,12 +1,13 @@
 # Middleout_Phase1
 Phase1 -  VCS/HTML/CSS project @ Middleout
 
-## v-1.0
+## v-0.1
 * Created the main page
 * Listen 10 movies and their titles
 
+## v-0.2
+* Added header and footer with nav links poiting nowhere and copyright info
+
 TODO: 
 * Create film page 
-* Create links to every movie
-* Navbar to go through main and film page
-* Footer with same links and localization + copyright
+* Create links to every movie move
