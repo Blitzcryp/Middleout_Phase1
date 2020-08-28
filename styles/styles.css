@@ -32,6 +32,27 @@ footer p{
 
 
 /*! CONTENT*/
+.movie-card {
+    border: 4.5 px solid #fff;
+    width: 200px;
+
+    box-shadow: 1px 1px 0px #fff,
+        2px 2px 0px #fff,
+        3px 3px 0px #fff,
+        4px 4px 0px #fff,
+        5px 5px 0px #fff,
+        6px 6px 0px #fff;
+}
+
+.movie-card p {
+    background: rgba(255, 255, 255, 0.493);
+}
+
+.movie-card:hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+
 body {
     background: rgb(210, 224, 228);
 }
@@ -58,23 +79,3 @@ td p {
 
 
 /*TODO: TEST CSS BELLOW */
-.movie-card{
-    border: 4.5 px solid #fff;
-    width: 200px;
-
-    box-shadow: 1px 1px 0px #fff,
-                2px 2px 0px #fff,
-                3px 3px 0px #fff,
-                4px 4px 0px #fff,
-                5px 5px 0px #fff,
-                6px 6px 0px #fff;
-}
-
-.movie-card p{
-    background: rgba(255, 255, 255, 0.493);   
-}
-
-.movie-card:hover{
-    transition-duration: 1s;
-    transform: scale(1.2);
-}
