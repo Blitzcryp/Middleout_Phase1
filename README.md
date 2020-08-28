@@ -11,3 +11,11 @@ Phase1 -  VCS/HTML/CSS project @ Middleout
 TODO: 
 * Create film page 
 * Create links to every movie move
+
+## v-0.3 
+* Styled header and footer
+* Refactored the CSS file structure
+
+TODO: 
+* Create film page 
+* Style the movie cards

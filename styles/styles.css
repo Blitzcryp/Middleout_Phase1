@@ -1,8 +1,80 @@
-img{
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+/*! HEADER & FOOTER */
+header, footer{
+    background: #333;
+    text-align: center;
+}
+header li a, footer li a{
+    color: #fff;
+}
+header h1{
+    color: rgba(40, 250, 120, 0.822);
+    font-size: 40px;
+
+    padding: 10px 0px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+/*?Start footer only*/
+footer p{
+    color: white;
+    word-spacing: 2px;
+}
+/*?End footer only*/
+/*! HEADER & FOOTER END */
+
+
+/*! CONTENT*/
+body {
+    background: rgb(210, 224, 228);
+}
+
+img {
     width: 200px;
     height: 200px;
 }
 
-table{
+table {
     width: 100%;
+    margin: 100px 0px;
+}
+
+td {
+    text-align: center;
+}
+
+td p {
+    margin: -10px 0px 50px 0px;
+    padding: 10px 0px;
+}
+/*! CONTENT END*/
+
+
+/*TODO: TEST CSS BELLOW */
+.movie-card{
+    border: 4.5 px solid #fff;
+    width: 200px;
+
+    box-shadow: 1px 1px 0px #fff,
+                2px 2px 0px #fff,
+                3px 3px 0px #fff,
+                4px 4px 0px #fff,
+                5px 5px 0px #fff,
+                6px 6px 0px #fff;
+}
+
+.movie-card p{
+    background: rgba(255, 255, 255, 0.493);   
+}
+
+.movie-card:hover{
+    transition-duration: 1s;
+    transform: scale(1.2);
 }
