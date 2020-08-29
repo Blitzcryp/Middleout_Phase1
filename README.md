@@ -14,8 +14,17 @@ Phase1 -  VCS/HTML/CSS project @ Middleout
 	-- Centered movies
 	-- Movie card link to movie page
 3. Second Page
-	--Movies listed in a table
-	--Movies w/ name & clickable link
+	-+Movies listed in a table
+		-+ Table Ready
+		-- List ALL movies
+	-+Movies w/ name & clickable link
+		-+ Links ready
+		-- List all links
+4. Movie page 
+	-- Movie page for each movie
+		-- Name
+		-- Picture
+		-- Info
 ```
 ## v-0.1
 * Created the main page
@@ -35,3 +44,15 @@ TODO:
 TODO: 
 * Create film page 
 * Style the movie cards
+
+## v-0.4
+* Revamped some colors on Header & Footer 
+* Created movie list page with table listing 
+	* Has IMDb arrow link
+	* Has Self page arrow link
+* Styled the movie list table
+
+TODO: 
+* Create movie page for every movie in the list
+* Style the header & footer navigation links
+* Add localization
